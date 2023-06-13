@@ -43,7 +43,7 @@ public class validate_To_broken_image {
 				URLConnection urlConnection =url.openConnection();
 				HttpURLConnection httpurlconnection =(HttpURLConnection) urlConnection;
 				httpurlconnection.setConnectTimeout(5000);
-				httpurlconnection.connect();
+				
 				
 				if(httpurlconnection.getResponseCode()==200)
 System.out.println(imageSrc+ " >> "+httpurlconnection.getResponseCode()+ " >> " +httpurlconnection.getResponseMessage());	
@@ -51,7 +51,7 @@ System.out.println(imageSrc+ " >> "+httpurlconnection.getResponseCode()+ " >> " 
 				else
 					System.err.println(imageSrc+ " >> "+httpurlconnection.getResponseCode()+ " >> " +httpurlconnection.getResponseMessage());
 
-				httpurlconnection.disconnect();
+				
 			
 			} catch (IOException e) {
 				

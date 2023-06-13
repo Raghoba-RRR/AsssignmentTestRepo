@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-08T19:20:23 IST" name="Default suite" finished-at="2023-06-08T19:20:41 IST" duration-ms="18214">
+  <suite started-at="2023-06-13T10:20:34 IST" name="Default suite" finished-at="2023-06-13T10:20:41 IST" duration-ms="7100">
     <groups>
     </groups>
-    <test started-at="2023-06-08T19:20:23 IST" name="Default test" finished-at="2023-06-08T19:20:41 IST" duration-ms="18214">
-      <class name="interviewTest.validate_To_broken_image">
-        <test-method signature="Find_broken_image()[pri:0, instance:interviewTest.validate_To_broken_image@5ccddd20]" started-at="2023-06-08T19:20:23 IST" name="Find_broken_image" finished-at="2023-06-08T19:20:41 IST" duration-ms="18179" status="PASS">
+    <test started-at="2023-06-13T10:20:34 IST" name="Default test" finished-at="2023-06-13T10:20:41 IST" duration-ms="7100">
+      <class name="interviewTest.upload_to_file">
+        <test-method signature="upload()[pri:0, instance:interviewTest.upload_to_file@5ccddd20]" started-at="2023-06-13T10:20:34 IST" name="upload" finished-at="2023-06-13T10:20:41 IST" duration-ms="7047" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Find_broken_image -->
-      </class> <!-- interviewTest.validate_To_broken_image -->
+        </test-method> <!-- upload -->
+      </class> <!-- interviewTest.upload_to_file -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
